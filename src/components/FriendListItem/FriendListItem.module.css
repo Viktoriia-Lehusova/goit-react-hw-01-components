@@ -1,0 +1,35 @@
+.item {
+  position: relative;
+  display: flex;
+
+  margin-bottom: 10px;
+
+  width: 200px;
+
+  color: aqua;
+  box-shadow: 1px 4px 14px 6px rgba(117, 117, 117, 1);
+  background-color: antiquewhite;
+}
+.status {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  padding: 4px 4px;
+  border-radius: 50%;
+
+  background-color: blueviolet;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+}
+.avatar {
+  background-color: brown;
+}
+
+.name {
+  padding-left: 10px;
+  color: black;
+}
